@@ -2,4 +2,5 @@ from creatures import Creature
 
 
 if __name__ == '__main__':
-    print(Creature('impossible', 1, 1, 2))
+    creature = Creature('impossible', '1.2', 1, 9, 1)
+    print(creature)
